@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    
+}
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+} */
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 1px;
+    padding: 0rem 1rem;
+    font-weight: bold;    
+}
+
+a{
+    text-decoration: none;
+    color: #FE7E01;
+}
+
+a:hover{
+    border-bottom: solid 2px #FE7E01;
+}
+
+.img-titulo img{
+    width: 100%;
+    border-radius: 0 0 35px 5px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 0 ;
+}
+.card-container{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.card-container h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-1{
+    display: flex;
+    height: 40vh;
+    width: 40vw;
+    background-color: #6C7B8E;
+    ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.card-1 p{
+    margin: 0 200px 0 25px;
+}
+.card-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vw;
+    background-color: #F9C231;
+    color: white;
+    position: relative;
+    margin: 0 0 0 700px;
+}
+
+.card-2 p{
+    margin: 0 20px;
+    text-align: justify;
+}
+
+#produto, #contato{
+    height: 60vh;
+}
+
+
+#home:target ~ header #link-home a,
+#produto:target ~ header #link-produto a,
+#sobre:target ~ header #link-sobre a,
+#contato:target ~ header #link-contati a{
+    background: rgb(51, 51, 51);
+    color: rgb(206, 42, 42);
+}
