@@ -1,107 +1,138 @@
 body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-
+    box-sizing: border-box;
 }
 
-
+header{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
 
 .container{
     display: flex;
     justify-content: center;    
     align-items: center;
     height: 10vh;
-    width: 100%;
+    width: 900px;
     background-color: white;
-    
+    flex-wrap: wrap;
 }
-/* .navbar{
-    display: flex;
-    flex-direction: row;
-} */
 
-ul{
+.container img{
+  margin:0 auto;
+  height: 160px;
+}
+
+.navbar-container ul{
     display: flex;
     list-style: none;
+    padding: 10px;
 }
 
-li{
-    margin: 1px;
+.itens-container li{
+    margin: 0 auto;
     padding: 0rem 1rem;
     font-weight: bold;    
 }
 
-a{
+.itens-container a{
+    font-size: 1.2rem;
+    font-weight: bold;
     text-decoration: none;
-    color: #FE7E01;
+    color: #222222;
+}
+.nav-left a:hover{    
+    transition:all 0.3s ease;
+    color: #FF0000;
 }
 
-a:hover{
-    border-bottom: solid 2px #FE7E01;
+.nav-rigth a:hover{
+    transition:all 0.3s ease;
+    color: #00F3FF;
 }
 
 .img-titulo img{
     width: 100%;
-    border-radius: 0 0 35px 5px;
 }
-.titulo{
+.titulo h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: static;
     margin: 100px 0 0 0 ;
+}
+.titulo-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:10px;
+    
 }
 .card-container{
     display: flex;
     height: 60vh;
     width: 100%;
-    color: white;
+    color: #222222;
     position: relative;
     justify-content: center;
     align-items: center;
-}
-.card-container h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* background-color: aqua; */
 }
 
 .card-1{
-    display: flex;
-    height: 40vh;
-    width: 40vw;
-    background-color: #6C7B8E;
-    ;
-    color: white;
+    display: flex;     
+    justify-content: center;   
     align-items: center;
-    justify-content: center;
+    background-color: #6C7B8E;
+    color: white;
+    height: 40vh;
+    width: 35vw;    
+    margin-right: 2.5rem;
+    padding: 0.5rem;
     position: absolute;
 }
 
 .card-1 p{
-    margin: 0 200px 0 25px;
+    margin: 0 205px 0 25px;
+    text-align: justify;
 }
 .card-2{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 30vh;
-    width: 30vw;
-    background-color: #F9C231;
+    align-items: center;
+    background-color: #F9C231;    
     color: white;
-    position: relative;
+    height: 30vh;
+    width: 23vw;
     margin: 0 0 0 700px;
+    position: relative;
 }
 
 .card-2 p{
     margin: 0 20px;
-    text-align: justify;
+}
+
+ul{
+    list-style: none;
+}
+
+.rodape{
+    background-color: #222222;
+    height: 250px;
 }
 
 #produto, #contato{
     height: 60vh;
 }
 
-
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
 #home:target ~ header #link-home a,
 #produto:target ~ header #link-produto a,
 #sobre:target ~ header #link-sobre a,
