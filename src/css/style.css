@@ -2,6 +2,8 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -12,16 +14,10 @@ header{
 
 .container{
     display: flex;
-    justify-content: center;    
     align-items: center;
-    height: 10vh;
-    width: 900px;
-    background-color: white;
-    flex-wrap: wrap;
 }
 
 .container img{
-  margin:0 auto;
   height: 160px;
 }
 
@@ -60,26 +56,28 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: static;
     margin: 100px 0 0 0 ;
 }
-.titulo-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.titulo-card{   
     position: absolute;
-    top:10px;
-    
+    top:10px;    
 }
-.card-container{
+.container-sobre{
     display: flex;
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     color: #222222;
     position: relative;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
+    margin: 10rem 0;
+}
+
+.cards{
+    display: flex;
+    height: 24.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-1{
@@ -88,7 +86,7 @@ header{
     align-items: center;
     background-color: #6C7B8E;
     color: white;
-    height: 40vh;
+    height: 50vh;
     width: 35vw;    
     margin-right: 2.5rem;
     padding: 0.5rem;
@@ -96,7 +94,7 @@ header{
 }
 
 .card-1 p{
-    margin: 0 205px 0 25px;
+    margin-right: 90px;
     text-align: justify;
 }
 .card-2{
@@ -105,7 +103,7 @@ header{
     align-items: center;
     background-color: #F9C231;    
     color: white;
-    height: 30vh;
+    height: 35vh;
     width: 23vw;
     margin: 0 0 0 700px;
     position: relative;
@@ -118,21 +116,37 @@ header{
 ul{
     list-style: none;
 }
-
+/* 
 .rodape{
     background-color: #222222;
     height: 250px;
-}
+} */
 
-#produto, #contato{
+#produto{
     height: 60vh;
 }
 
-.mapa{
+.contato{
+    display: flex;
+    height: 75vh;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-contato img{
+    margin-top: 35px;
+} 
+
+
+.card-contato img{
+    height: 70px;
+    width: 70px;
+}
+/* .mapa{
     display: flex;
     justify-content: center;
     margin-top: 17px;
-}
+} */
 #home:target ~ header #link-home a,
 #produto:target ~ header #link-produto a,
 #sobre:target ~ header #link-sobre a,
