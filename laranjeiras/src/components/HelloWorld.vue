@@ -1,15 +1,21 @@
 <template>
-  <menu1></menu1>
+  <menu1/>
+  <cabecalho/>
+  <cardCard/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import menu1 from '../components/menu.vue'
+import menu1 from './Menu.vue'
+import cabecalho from './cabecalho.vue'
+import cardCard from './card.vue'
 
 export default defineComponent({
   name: 'HelloWorld',
   components:{
-    menu1
+    menu1,
+    cabecalho,
+    cardCard
   } 
 });
 </script>
