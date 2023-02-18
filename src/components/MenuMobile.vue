@@ -5,9 +5,9 @@
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-        </button>
+        </button> 
 
-        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas offcanvas-end w-50" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
             <div>
                 <img src="../assets/img/logo2.svg" alt="" class="align-center">
