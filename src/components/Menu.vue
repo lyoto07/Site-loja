@@ -22,7 +22,7 @@ export default defineComponent({
 #sidemenu {
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFF0;
+    background-color: #fdfdfd;
     border-bottom: solid 2px #FFB100;
     height: 95px;
     padding: 0 16px;
@@ -39,14 +39,9 @@ img{
 
 }
 
-
 .logo {
     width: 40%;
 }
-
-/* .navbar-toggler,.offcanvas .offcanvas-end{
-    border: none;
-} */
 
 .bar{
   display: block;

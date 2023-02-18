@@ -1,7 +1,8 @@
 <template>
-  <menu1/>
-  <cabecalho/>
-  <cardCard/>
+    <menu1/>
+    <cabecalho/>
+    <cardCard/>
+
 </template>
 
 <script lang="ts">
