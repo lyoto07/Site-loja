@@ -8,10 +8,7 @@
         </button> 
 
         <div class="offcanvas offcanvas-end w-50" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-            <div>
-                <img src="../assets/img/logo2.svg" alt="" class="align-center">
-            </div>
+        <div class="offcanvas-header d-flex justify-content-end">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -51,6 +48,11 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+#sidemenu {
+    font-family: 'Nunito';
+}
+
 @media screen AND (min-width: 1024px){ 
     #sidemenu{
         display: none !important;
