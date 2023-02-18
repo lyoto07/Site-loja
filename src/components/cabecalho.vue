@@ -1,6 +1,6 @@
 <template>  
     <div class="d-flex justify-content-end">
-        <img src="../assets/img/fundo_header.svg" alt="">
+        <img src="../assets/img/fundo_personalizado.svg" alt="">
     </div>
     
 </template>
