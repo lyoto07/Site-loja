@@ -18,7 +18,7 @@
             <nav class="navbar navbar-expand-sm bg-body-tertiary">
                 <div class="container-fluid">
                     <div class="" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav flex-column">
                             <li class="nav-item">
                             <a class="nav-link active fs-3 fw-bolder" aria-current="page" href="#">Home</a>
                             </li>
