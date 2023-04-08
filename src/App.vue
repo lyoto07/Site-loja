@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <Conteudo msg="Welcome to Your Vue.js + TypeScript App"/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/Conteudo.vue';
+import Conteudo from './components/Conteudo.vue';
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Conteudo
   }
 });
 </script>
