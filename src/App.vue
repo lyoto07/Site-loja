@@ -1,5 +1,5 @@
 <template>
-  <Conteudo msg="Welcome to Your Vue.js + TypeScript App"/>
+  <Conteudo/>
 </template>
 
 <script lang="ts">
