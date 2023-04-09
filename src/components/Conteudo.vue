@@ -1,5 +1,5 @@
 <template>
-    <menu1/>
+    <menuPrincipal/>
     <cabecalho/>
     <cardCard/>
 
@@ -7,14 +7,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import menu1 from './Menu.vue'
+import menuPrincipal from './Menu.vue'
 import cabecalho from './cabecalho.vue'
 import cardCard from './card.vue'
 
 export default defineComponent({
   name: 'HelloWorld',
   components:{
-    menu1,
+    menuPrincipal,
     cabecalho,
     cardCard
   } 
