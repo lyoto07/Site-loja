@@ -8,33 +8,33 @@
         </button> 
 
         <div class="offcanvas offcanvas-end w-50" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header d-flex justify-content-end">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <nav class="navbar navbar-expand-sm bg-body-tertiary">
-                <div class="container-fluid">
-                    <div class="" id="navbarNav">
-                        <ul class="navbar-nav flex-column">
-                            <li class="nav-item">
-                            <a class="nav-link active fs-3 fw-bolder" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link fs-3" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link fs-3" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link fs-3">Disabled</a>
-                            </li>
-                        </ul>
+            <div class="offcanvas-header d-flex justify-content-end">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="navbar navbar-expand-sm bg-body-tertiary">
+                    <div class="container-fluid">
+                        <div class="" id="navbarNav">
+                            <ul class="navbar-nav flex-column">
+                                <li class="nav-item">
+                                <a class="nav-link active fs-3 fw-bolder" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link fs-3" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link fs-3" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link fs-3">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
-        </div>
+                </nav>
+            </div>
         
-    </div>
+        </div>
     </div>
 </template>
 
@@ -60,6 +60,7 @@ export default defineComponent({
     
 
 }
+
 #sidemenu {
     display: flex;
     justify-content: space-between;
@@ -73,13 +74,6 @@ img{
     width: 40%;
 }
 
-
-
-
-.logo {
-    width: 40%;
-}
-
 .bar{
   display: block;
   width: 25px;
@@ -87,9 +81,6 @@ img{
   margin: 5px 0px;
   background-color: #FFB100;
 }
-
-
-
 .container-fluid{
     padding: 0;
 }
